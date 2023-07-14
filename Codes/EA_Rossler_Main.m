@@ -62,11 +62,11 @@ function [V_x,V_y,M_x,S_x,R_all,V_s_x,M_s_x,S_s_x,R_all_s] = EA_Rossler_Main(ii,
 % Example on how to call the function:
 % 1) If we want same parameters as Fig.3(d)-Fig.3(f). Realization ii will
 % be set to 1:
-% [...] = EspinosoPRE2022_Rossler;
+% [...] = EA_Rossler_Main;
 % 2) Same as 1) but expressing the number of realization to preserve same
 % initial condition for same number of iterations. In this example,
 % iteration 2:
-% [...] = EspinosoPRE2022_Rossler(2)
+% [...] = EA_Rossler_Main(2)
 %
 % Author: Anaïs Espinoso, 2022
 %--------------------------------------------------------------------------
